@@ -1,0 +1,9 @@
+public class Boks {
+    public static void main(String[] args){
+    Fighter f1 = new Fighter("Muhammed Ali",10,120,100,50);
+    Fighter f2 = new Fighter("Mike Tyson",20,85,85,30);
+
+    Match match = new Match(f1,f2,85,100);
+    match.run();
+    }
+}
